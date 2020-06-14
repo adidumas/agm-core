@@ -25,5 +25,5 @@ export declare class AgmCoreModule {
     /**
      * Please use this method when you register the module at the root level.
      */
-    static forRoot(lazyMapsAPILoaderConfig?: LazyMapsAPILoaderConfigLiteral): any;
+    static forRoot(lazyMapsAPILoaderConfig?: LazyMapsAPILoaderConfigLiteral): ModuleWithProviders<AgmCoreModule>;
 }
